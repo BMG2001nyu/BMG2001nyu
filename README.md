@@ -68,6 +68,7 @@ I’m especially interested in building tools that move from idea to working pro
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square)
 ![OpenAI](https://img.shields.io/badge/LLMs-412991?style=flat-square)
 ![Whisper](https://img.shields.io/badge/Whisper-000000?style=flat-square)
+[![Agno](https://img.shields.io)](https://github.com/agno-agi/agno)
 
 ### Cloud / Data / DevTools
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
