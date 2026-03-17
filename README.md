@@ -54,10 +54,10 @@ I’m especially interested in building tools that move from idea to working pro
 <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,redis&perline=8" />
 
 ### Cloud & DevOps
-<img src="https://skillicons.dev/icons?i=aws,docker,jenkins,linux,git,github,postman,hadoop&perline=8" />
+<img src="https://skillicons.dev/icons?i=aws,docker,jenkins,linux,git,github,postman,hadoop,GCP,spark&perline=8" />
 
 ### AI / ML / Data
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,fastapi,fastify&perline=8" />
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,fastapi,fastify,langchain,cursor,gemini,openai,&perline=8" />
 
 </div>
 
