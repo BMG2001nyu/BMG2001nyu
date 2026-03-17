@@ -1,0 +1,195 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1b33"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="glow" x1="120" y1="40" x2="520" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="cardGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.25 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title { font: 800 52px 'Segoe UI', Inter, Arial, sans-serif; fill: #F8FAFC; letter-spacing: 1px; }
+      .subtitle { font: 600 20px 'Segoe UI', Inter, Arial, sans-serif; fill: #93C5FD; }
+      .body { font: 500 15px 'Segoe UI', Inter, Arial, sans-serif; fill: #CBD5E1; }
+      .chip { font: 700 13px 'Segoe UI', Inter, Arial, sans-serif; fill: #E2E8F0; }
+      .term { font: 600 14px 'Courier New', monospace; fill: #A5F3FC; }
+      .mini { font: 700 11px 'Segoe UI', Inter, Arial, sans-serif; fill: #E5E7EB; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.08">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200M0 300H1200" stroke="#93C5FD"/>
+    <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360" stroke="#93C5FD"/>
+  </g>
+
+  <!-- Floating particles -->
+  <g opacity="0.75">
+    <circle cx="78" cy="70" r="3" fill="#22D3EE">
+      <animate attributeName="cy" values="70;58;70" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="300" r="4" fill="#8B5CF6">
+      <animate attributeName="cy" values="300;288;300" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="512" cy="78" r="3" fill="#38BDF8">
+      <animate attributeName="cy" values="78;62;78" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="465" cy="315" r="4" fill="#A855F7">
+      <animate attributeName="cy" values="315;300;315" dur="5.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Neon halo behind avatar -->
+  <g filter="url(#softGlow)">
+    <circle cx="290" cy="180" r="108" fill="url(#glow)" opacity="0.18">
+      <animate attributeName="r" values="108;114;108" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.18;0.26;0.18" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="290" cy="180" r="78" fill="url(#glow)" opacity="0.22">
+      <animate attributeName="r" values="78;84;78" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.22;0.3;0.22" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Left illustration -->
+  <g>
+    <!-- Floating terminal -->
+    <g filter="url(#cardGlow)">
+      <rect x="76" y="68" width="160" height="84" rx="14" fill="#0F172A" stroke="#334155"/>
+      <rect x="76" y="68" width="160" height="20" rx="14" fill="#111827"/>
+      <circle cx="92" cy="78" r="4" fill="#FB7185"/>
+      <circle cx="106" cy="78" r="4" fill="#F59E0B"/>
+      <circle cx="120" cy="78" r="4" fill="#34D399"/>
+      <text x="92" y="110" class="term">$ build --ship</text>
+      <text x="92" y="132" class="term">status: active_</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="4.2s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Avatar -->
+    <g transform-origin="290 190">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="3.2s" repeatCount="indefinite"/>
+      
+      <!-- Hoodie body -->
+      <path d="M224 248C232 212 253 192 290 192C327 192 348 212 356 248V274H224V248Z" fill="#111827"/>
+      <path d="M238 246C245 218 262 202 290 202C318 202 335 218 342 246V274H238V246Z" fill="#1E293B"/>
+
+      <!-- Hood -->
+      <path d="M238 164C244 122 262 100 290 100C318 100 336 122 342 164C332 142 315 132 290 132C265 132 248 142 238 164Z" fill="#0F172A"/>
+
+      <!-- Head -->
+      <circle cx="290" cy="154" r="34" fill="#E5C4A1"/>
+
+      <!-- Hair -->
+      <path d="M258 153C260 129 275 115 295 114C315 113 326 125 327 145C317 136 307 134 296 135C286 136 278 139 269 146C265 148 261 150 258 153Z" fill="#111827"/>
+
+      <!-- Headphones -->
+      <path d="M252 151C252 126 268 110 290 110C312 110 328 126 328 151" stroke="url(#accent)" stroke-width="7" stroke-linecap="round"/>
+      <rect x="246" y="144" width="12" height="26" rx="6" fill="#0F172A" stroke="#38BDF8"/>
+      <rect x="322" y="144" width="12" height="26" rx="6" fill="#0F172A" stroke="#8B5CF6"/>
+
+      <!-- Face -->
+      <circle cx="279" cy="157" r="2.5" fill="#0F172A"/>
+      <circle cx="301" cy="157" r="2.5" fill="#0F172A"/>
+      <path d="M282 170C286 174 294 174 298 170" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- Laptop -->
+      <g filter="url(#cardGlow)">
+        <rect x="248" y="220" width="86" height="48" rx="10" fill="#0B1120" stroke="#334155"/>
+        <rect x="255" y="227" width="72" height="32" rx="6" fill="#0F172A"/>
+        <path d="M242 268H340L350 276H232L242 268Z" fill="#334155"/>
+        <path d="M266 243H304" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+        <path d="M266 251H319" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+        <path d="M266 235L277 244L266 253" stroke="#38BDF8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+
+    <!-- Floating code chips -->
+    <g opacity="0.95">
+      <g>
+        <rect x="392" y="84" width="56" height="28" rx="14" fill="#111827" stroke="#38BDF8"/>
+        <text x="410" y="103" class="chip">&lt;/&gt;</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="4.5s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect x="424" y="258" width="60" height="28" rx="14" fill="#111827" stroke="#8B5CF6"/>
+        <text x="442" y="277" class="chip">{ }</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="5s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <rect x="86" y="252" width="72" height="28" rx="14" fill="#111827" stroke="#22D3EE"/>
+        <text x="104" y="271" class="chip">build()</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -7; 0 0" dur="4.7s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right content -->
+  <g>
+    <text x="560" y="120" class="title">BHARATH</text>
+    <text x="560" y="154" class="subtitle">Software Engineer • Applied AI • Backend Systems</text>
+    <text x="560" y="190" class="body">I build practical products that turn messy workflow problems</text>
+    <text x="560" y="214" class="body">into reliable systems people can actually use.</text>
+
+    <!-- Typing line -->
+    <rect x="560" y="240" width="420" height="46" rx="14" fill="#0F172A" stroke="#334155"/>
+    <circle cx="582" cy="263" r="4" fill="#FB7185"/>
+    <circle cx="596" cy="263" r="4" fill="#F59E0B"/>
+    <circle cx="610" cy="263" r="4" fill="#34D399"/>
+    <text x="630" y="269" class="term">$ shipping ideas into systems</text>
+    <rect x="924" y="252" width="8" height="18" rx="3" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Mini chips -->
+    <g>
+      <rect x="560" y="306" width="88" height="28" rx="14" fill="#111827" stroke="#22D3EE"/>
+      <text x="584" y="324" class="mini">FastAPI</text>
+
+      <rect x="660" y="306" width="88" height="28" rx="14" fill="#111827" stroke="#8B5CF6"/>
+      <text x="686" y="324" class="mini">LLM Apps</text>
+
+      <rect x="760" y="306" width="96" height="28" rx="14" fill="#111827" stroke="#38BDF8"/>
+      <text x="786" y="324" class="mini">Realtime</text>
+
+      <rect x="868" y="306" width="100" height="28" rx="14" fill="#111827" stroke="#A855F7"/>
+      <text x="891" y="324" class="mini">Hackathons</text>
+    </g>
+  </g>
+
+  <!-- Outer soft border -->
+  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="url(#accent)" stroke-opacity="0.18"/>
+</svg>
