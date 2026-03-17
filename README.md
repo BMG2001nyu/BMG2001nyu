@@ -40,53 +40,41 @@ I’m especially interested in building tools that move from idea to working pro
 
 ---
 
-## Tech Stack
+## ⚒️ Tech Stack
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+<div align="center">
 
-### Backend / APIs
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20APIs-02569B?style=flat-square)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square)
+### Languages & Core
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,c,cpp,sqlite&perline=8" />
 
 ### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,firebase,vercel&perline=8" />
 
-### AI / ML
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+### Backend & APIs
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,redis&perline=8" />
+
+### Cloud & DevOps
+<img src="https://skillicons.dev/icons?i=aws,docker,jenkins,linux,git,github,postman&perline=8" />
+
+### AI / ML / Data
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,hadoop&perline=8" />
+
+</div>
+
+<div align="center">
+
+### Specialized Tools
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square)
 ![Agno](https://img.shields.io/badge/Agno-1C1C1C?style=flat-square)
-![OpenAI](https://img.shields.io/badge/LLMs-412991?style=flat-square)
-![Whisper](https://img.shields.io/badge/Whisper-000000?style=flat-square)
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square)
-![Claude%20Code](https://img.shields.io/badge/Claude%20Code-1A1A1A?style=flat-square)
 ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
-
-### Cloud / Data / DevTools
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP%20Pub/Sub-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Claude%20Code](https://img.shields.io/badge/Claude%20Code-1A1A1A?style=flat-square)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square)
 ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square)
-![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![GCP%20Pub/Sub](https://img.shields.io/badge/GCP%20Pub%2FSub-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+
+</div>
 
 
 ---
