@@ -45,7 +45,7 @@ I’m especially interested in building tools that move from idea to working pro
 <div align="center">
 
 ### Languages & Core
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,c,cpp,sqlite&perline=8" />
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,c,sql&perline=8" />
 
 ### Frontend
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,firebase,vercel&perline=8" />
@@ -54,10 +54,10 @@ I’m especially interested in building tools that move from idea to working pro
 <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,redis&perline=8" />
 
 ### Cloud & DevOps
-<img src="https://skillicons.dev/icons?i=aws,docker,jenkins,linux,git,github,postman&perline=8" />
+<img src="https://skillicons.dev/icons?i=aws,docker,jenkins,linux,git,github,postman,hadoop&perline=8" />
 
 ### AI / ML / Data
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,hadoop&perline=8" />
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,fastapi,fastify&perline=8" />
 
 </div>
 
