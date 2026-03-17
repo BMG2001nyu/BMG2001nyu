@@ -1,8 +1,23 @@
-<h1 align="center">Hi, I'm Bharath 👋</h1>
+<p align="center">
+  <img src="./assets/hero.svg" alt="Bharath animated hero" width="100%" />
+</p>
+
+
+
+<p align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32" />
+</p>
+
+<h3 align="center">Hi, I'm Bharath 👋</h3>
+
 <h3 align="center">Software Engineer | Applied AI Engineer | Backend & Product Systems Builder</h3>
 
 <p align="center">
   I build practical software and AI systems that solve real workflow problems.
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=60A5FA&center=true&vCenter=true&width=900&lines=I+build+practical+software+and+AI+systems;Backend+%2B+Applied+AI+%2B+Product+Engineering;Turning+messy+workflow+problems+into+working+products;Hackathons%2C+real-time+systems%2C+automation%2C+and+LLM+apps" />
 </p>
 
 <p align="center">
@@ -14,7 +29,9 @@
 
 ---
 
-## About Me
+## 👨‍💻 About Me
+
+<img align="right" alt="Coding" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 I’m a software engineer with experience across **backend systems, applied AI, full-stack product development, and cloud infrastructure**. I enjoy finding messy real-world problems, understanding where time and effort are being wasted, and building systems that make work faster, clearer, and more reliable.
 
@@ -27,6 +44,7 @@ My strongest work sits at the intersection of:
 - **Automation and developer tooling**
 
 I’m especially interested in building tools that move from idea to working product quickly, while still being reliable enough to use in the real world.
+<br clear="right"/>
 
 ---
 
