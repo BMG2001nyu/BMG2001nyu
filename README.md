@@ -69,9 +69,9 @@ I’m especially interested in building tools that move from idea to working pro
 ![Agno](https://img.shields.io/badge/Agno-1C1C1C?style=flat-square)
 ![OpenAI](https://img.shields.io/badge/LLMs-412991?style=flat-square)
 ![Whisper](https://img.shields.io/badge/Whisper-000000?style=flat-square)
-![Cursor](https://img.shields.io/badge/Cursor-111111?style=for-the-badge)
-![Claude%20Code](https://img.shields.io/badge/Claude%20Code-2D2D2D?style=for-the-badge)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square)
+![Claude%20Code](https://img.shields.io/badge/Claude%20Code-1A1A1A?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 
 ### Cloud / Data / DevTools
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
@@ -83,8 +83,8 @@ I’m especially interested in building tools that move from idea to working pro
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge)
-![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square)
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
