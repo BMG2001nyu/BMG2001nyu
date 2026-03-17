@@ -66,9 +66,12 @@ I’m especially interested in building tools that move from idea to working pro
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square)
+![Agno](https://img.shields.io/badge/Agno-1C1C1C?style=flat-square)
 ![OpenAI](https://img.shields.io/badge/LLMs-412991?style=flat-square)
 ![Whisper](https://img.shields.io/badge/Whisper-000000?style=flat-square)
-[![Agno](https://img.shields.io)](https://github.com/agno-agi/agno)
+![Cursor](https://img.shields.io/badge/Cursor-111111?style=for-the-badge)
+![Claude%20Code](https://img.shields.io/badge/Claude%20Code-2D2D2D?style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 ### Cloud / Data / DevTools
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
@@ -79,6 +82,12 @@ I’m especially interested in building tools that move from idea to working pro
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge)
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
 
 ---
 
@@ -137,12 +146,39 @@ The work I enjoy most usually looks like this:
 
 ---
 
-## GitHub Stats
+## Mini README Game
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" height="170" />
-</p>
+<details>
+  <summary>🎮 Pick a build path</summary>
+
+### You have 24 hours to ship something useful. What do you build?
+
+#### 1. AI Workflow Assistant
+You build a system that reads messy product updates across tools, finds mismatches, and helps teams move faster.  
+**Unlocked skills:** LLMs, retrieval, orchestration, backend systems
+
+#### 2. Real-Time Collaboration Tool
+You build a fast multi-user product where people can interact live with shared state and low latency.  
+**Unlocked skills:** WebSockets, async systems, frontend/backend coordination
+
+#### 3. Automation Engine
+You build a practical system that eliminates repetitive work and connects APIs into useful workflows.  
+**Unlocked skills:** APIs, microservices, cloud workflows, process automation
+
+💡 **Correct answer:** all 3 — that’s the kind of work I enjoy most.
+
+</details>
+
+<details>
+  <summary>🧩 Quick builder riddle</summary>
+
+**I reduce manual work, connect scattered systems, and help people move faster.  
+I might use APIs, AI, or automation, but my real goal is saving time and reducing friction.  
+What am I?**
+
+➡️ **Answer:** A practical software system built around a real workflow problem.
+
+</details>
 
 ---
 
